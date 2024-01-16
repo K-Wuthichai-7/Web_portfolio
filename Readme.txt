@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Wutthichai</h1>
-<h3 align="center">Frontend,Backend developer</h3>
+Hi 👋, I'm Wutthichai
+Frontend,Backend developer
 
-- 🔭 I’m currently working on **Web_porfolio**
+ **Web_porfolio**
 
 
 
