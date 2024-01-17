@@ -71,3 +71,35 @@ class EducationTwo extends HTMLElement {
 customElements.define('education-two', EducationTwo)
 
 // Education end
+
+
+// Pjpanchaksilu
+class Pjpanchaksilut extends HTMLElement {
+    constructor() {
+        super();
+    }
+
+    connectedCallback() {
+        this.innerHTML = ` 
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/panchaksilut.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 1</h4>
+              <p>panchaksilut</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/panchaksilut.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="https://panchaksilut-11.000webhostapp.com/index.php" data-gallery="portfolioDetailsGallery"
+                  data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        `
+    }
+}
+
+customElements.define('pj-panchaksilut', Pjpanchaksilut)
+// Pjpanchaksilu
